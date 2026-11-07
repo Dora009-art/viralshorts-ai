@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  viralshorts-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: viralshorts-ai-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./media:/app/media
+      - ./output_clips:/app/output_clips
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1

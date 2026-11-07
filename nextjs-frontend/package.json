@@ -1,0 +1,33 @@
+{
+  "name": "viralshorts-ai-nextjs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.378.0",
+    "framer-motion": "^11.2.4",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "@supabase/supabase-js": "^2.43.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@radix-ui/react-slot": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.11",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "autoprefixer": "^10.4.19"
+  }
+}
